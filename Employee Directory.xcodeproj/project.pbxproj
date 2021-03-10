@@ -12,7 +12,6 @@
 		BDE1F2E425F91402009F6529 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F2E325F91402009F6529 /* SceneDelegate.swift */; };
 		BDE1F2EB25F91404009F6529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDE1F2EA25F91404009F6529 /* Assets.xcassets */; };
 		BDE1F2EE25F91404009F6529 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDE1F2EC25F91404009F6529 /* LaunchScreen.storyboard */; };
-		BDE1F33625F91E25009F6529 /* EmployeeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F33525F91E25009F6529 /* EmployeeListViewController.swift */; };
 		BDE1F33C25F92453009F6529 /* InitialScreenTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F33B25F92453009F6529 /* InitialScreenTest.swift */; };
 		BDE1F34425F924E0009F6529 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F34025F924E0009F6529 /* Networking.swift */; };
 		BDE1F34525F924E0009F6529 /* NetworkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F34125F924E0009F6529 /* NetworkSession.swift */; };
@@ -47,6 +46,9 @@
 		BDE1F3C125F9594C009F6529 /* EmployeesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F3C025F9594C009F6529 /* EmployeesListViewModel.swift */; };
 		BDE1F3C825F9595C009F6529 /* EmployeesListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F3C725F9595C009F6529 /* EmployeesListViewModelTests.swift */; };
 		BDE1F3CE25F95985009F6529 /* MockEmployeeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F3CD25F95985009F6529 /* MockEmployeeService.swift */; };
+		BDE1F3EA25F95A95009F6529 /* EmployeesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F3E825F95A95009F6529 /* EmployeesListViewController.swift */; };
+		BDE1F3EB25F95A95009F6529 /* EmployeesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F3E925F95A95009F6529 /* EmployeesListCell.swift */; };
+		BDE1F3F225F95AA9009F6529 /* EmployeesListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F3F125F95AA9009F6529 /* EmployeesListViewControllerTests.swift */; };
 		E761BE3B9C1FEAF35E77229A /* Pods_Employee_Directory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CBEE08396843BF1BF96F6A /* Pods_Employee_Directory.framework */; };
 /* End PBXBuildFile section */
 
@@ -73,7 +75,6 @@
 		BDE1F2EF25F91404009F6529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDE1F2F425F91405009F6529 /* Employee DirectoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Employee DirectoryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDE1F2FA25F91405009F6529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BDE1F33525F91E25009F6529 /* EmployeeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListViewController.swift; sourceTree = "<group>"; };
 		BDE1F33B25F92453009F6529 /* InitialScreenTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialScreenTest.swift; sourceTree = "<group>"; };
 		BDE1F34025F924E0009F6529 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		BDE1F34125F924E0009F6529 /* NetworkSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkSession.swift; sourceTree = "<group>"; };
@@ -108,6 +109,9 @@
 		BDE1F3C025F9594C009F6529 /* EmployeesListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeesListViewModel.swift; sourceTree = "<group>"; };
 		BDE1F3C725F9595C009F6529 /* EmployeesListViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeesListViewModelTests.swift; sourceTree = "<group>"; };
 		BDE1F3CD25F95985009F6529 /* MockEmployeeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockEmployeeService.swift; sourceTree = "<group>"; };
+		BDE1F3E825F95A95009F6529 /* EmployeesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeesListViewController.swift; sourceTree = "<group>"; };
+		BDE1F3E925F95A95009F6529 /* EmployeesListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeesListCell.swift; sourceTree = "<group>"; };
+		BDE1F3F125F95AA9009F6529 /* EmployeesListViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeesListViewControllerTests.swift; sourceTree = "<group>"; };
 		D9CBEE08396843BF1BF96F6A /* Pods_Employee_Directory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Employee_Directory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F179A6009AE1F6E057016BBF /* Pods-Employee Directory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Employee Directory.debug.xcconfig"; path = "Target Support Files/Pods-Employee Directory/Pods-Employee Directory.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -165,13 +169,12 @@
 			isa = PBXGroup;
 			children = (
 				BDE1F3BF25F9594C009F6529 /* View Model */,
+				BDE1F3E725F95A95009F6529 /* Views */,
 				BDE1F3A125F92FC9009F6529 /* Helpers */,
+				BDE1F36525F925B6009F6529 /* Models + Extensions */,
+				BDE1F33F25F924E0009F6529 /* Networking */,
 				BDE1F38925F92FA1009F6529 /* Service */,
 				BDE1F38C25F92FA1009F6529 /* Utils */,
-				BDE1F36225F925B6009F6529 /* Model Extensions */,
-				BDE1F36525F925B6009F6529 /* Models */,
-				BDE1F33F25F924E0009F6529 /* Networking */,
-				BDE1F33425F91E0C009F6529 /* Views */,
 				BDE1F2E125F91402009F6529 /* AppDelegate.swift */,
 				BDE1F2E325F91402009F6529 /* SceneDelegate.swift */,
 				BDE1F2EA25F91404009F6529 /* Assets.xcassets */,
@@ -187,22 +190,15 @@
 			children = (
 				BDE1F35525F92520009F6529 /* Mocks */,
 				BDE1F3C625F9595C009F6529 /* View Models */,
-				BDE1F39725F92FB0009F6529 /* Service */,
-				BDE1F39525F92FB0009F6529 /* Utils */,
+				BDE1F3F025F95AA9009F6529 /* Views */,
 				BDE1F37225F925CD009F6529 /* Model Extensions */,
 				BDE1F34A25F924FD009F6529 /* Networking */,
+				BDE1F39725F92FB0009F6529 /* Service */,
+				BDE1F39525F92FB0009F6529 /* Utils */,
 				BDE1F33B25F92453009F6529 /* InitialScreenTest.swift */,
 				BDE1F2FA25F91405009F6529 /* Info.plist */,
 			);
 			path = "Employee DirectoryTests";
-			sourceTree = "<group>";
-		};
-		BDE1F33425F91E0C009F6529 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				BDE1F33525F91E25009F6529 /* EmployeeListViewController.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		BDE1F33F25F924E0009F6529 /* Networking */ = {
@@ -229,11 +225,11 @@
 		BDE1F35525F92520009F6529 /* Mocks */ = {
 			isa = PBXGroup;
 			children = (
-				BDE1F3CD25F95985009F6529 /* MockEmployeeService.swift */,
-				BDE1F3AF25F93006009F6529 /* MockCacheImageViewSessions.swift */,
 				BDE1F37925F9264C009F6529 /* MockSessions.swift */,
-				BDE1F35C25F92560009F6529 /* MockEmployees.swift */,
+				BDE1F3AF25F93006009F6529 /* MockCacheImageViewSessions.swift */,
 				BDE1F35625F9252D009F6529 /* MockNetworking.swift */,
+				BDE1F3CD25F95985009F6529 /* MockEmployeeService.swift */,
+				BDE1F35C25F92560009F6529 /* MockEmployees.swift */,
 				BDE1F38125F92670009F6529 /* employees_empty.json */,
 				BDE1F37F25F92670009F6529 /* employees_malformed.json */,
 				BDE1F38025F92670009F6529 /* employees.json */,
@@ -241,24 +237,25 @@
 			path = Mocks;
 			sourceTree = "<group>";
 		};
-		BDE1F36225F925B6009F6529 /* Model Extensions */ = {
+		BDE1F36225F925B6009F6529 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				BDE1F36325F925B6009F6529 /* Employees+Extension.swift */,
 				BDE1F36425F925B6009F6529 /* Employee+Extension.swift */,
 			);
-			path = "Model Extensions";
+			path = Extensions;
 			sourceTree = "<group>";
 		};
-		BDE1F36525F925B6009F6529 /* Models */ = {
+		BDE1F36525F925B6009F6529 /* Models + Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				BDE1F36225F925B6009F6529 /* Extensions */,
 				BDE1F36625F925B6009F6529 /* Employee.proto */,
 				BDE1F36725F925B6009F6529 /* Employee.pb.swift */,
 				BDE1F36825F925B6009F6529 /* Employees.pb.swift */,
 				BDE1F36925F925B6009F6529 /* Employees.proto */,
 			);
-			path = Models;
+			path = "Models + Extensions";
 			sourceTree = "<group>";
 		};
 		BDE1F37225F925CD009F6529 /* Model Extensions */ = {
@@ -298,8 +295,8 @@
 		BDE1F39725F92FB0009F6529 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				BDE1F39825F92FB0009F6529 /* EmployeeServiceTests.swift */,
 				BDE1F39925F92FB0009F6529 /* CacheServiceTests.swift */,
+				BDE1F39825F92FB0009F6529 /* EmployeeServiceTests.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -326,6 +323,24 @@
 				BDE1F3C725F9595C009F6529 /* EmployeesListViewModelTests.swift */,
 			);
 			path = "View Models";
+			sourceTree = "<group>";
+		};
+		BDE1F3E725F95A95009F6529 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BDE1F3E825F95A95009F6529 /* EmployeesListViewController.swift */,
+				BDE1F3E925F95A95009F6529 /* EmployeesListCell.swift */,
+			);
+			name = Views;
+			path = "../../iOS Projects/Employee Directory/Employee Directory/Views";
+			sourceTree = "<group>";
+		};
+		BDE1F3F025F95AA9009F6529 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BDE1F3F125F95AA9009F6529 /* EmployeesListViewControllerTests.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		BFB1CFABDF2BA3D2C364FC6B /* Pods */ = {
@@ -516,6 +531,7 @@
 				BDE1F34625F924E0009F6529 /* NetworkingErrorHandler.swift in Sources */,
 				BDE1F34525F924E0009F6529 /* NetworkSession.swift in Sources */,
 				BDE1F36E25F925B6009F6529 /* Employees.pb.swift in Sources */,
+				BDE1F3EB25F95A95009F6529 /* EmployeesListCell.swift in Sources */,
 				BDE1F39225F92FA1009F6529 /* SquareColors.swift in Sources */,
 				BDE1F36D25F925B6009F6529 /* Employee.pb.swift in Sources */,
 				BDE1F39125F92FA1009F6529 /* CachedImageView.swift in Sources */,
@@ -523,7 +539,7 @@
 				BDE1F39025F92FA1009F6529 /* EmployeeService.swift in Sources */,
 				BDE1F2E425F91402009F6529 /* SceneDelegate.swift in Sources */,
 				BDE1F36F25F925B6009F6529 /* Employees.proto in Sources */,
-				BDE1F33625F91E25009F6529 /* EmployeeListViewController.swift in Sources */,
+				BDE1F3EA25F95A95009F6529 /* EmployeesListViewController.swift in Sources */,
 				BDE1F3C125F9594C009F6529 /* EmployeesListViewModel.swift in Sources */,
 				BDE1F34425F924E0009F6529 /* Networking.swift in Sources */,
 				BDE1F36C25F925B6009F6529 /* Employee.proto in Sources */,
@@ -547,6 +563,7 @@
 				BDE1F37425F925CD009F6529 /* EmployeeModelTests.swift in Sources */,
 				BDE1F3CE25F95985009F6529 /* MockEmployeeService.swift in Sources */,
 				BDE1F34E25F924FD009F6529 /* NetworkingErrorHandlerTests.swift in Sources */,
+				BDE1F3F225F95AA9009F6529 /* EmployeesListViewControllerTests.swift in Sources */,
 				BDE1F37A25F9264C009F6529 /* MockSessions.swift in Sources */,
 				BDE1F35025F924FD009F6529 /* NetworkingTests.swift in Sources */,
 				BDE1F39C25F92FB1009F6529 /* CacheServiceTests.swift in Sources */,
