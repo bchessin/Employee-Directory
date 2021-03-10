@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+message Employee {
+    string uuid = 1;
+    string full_name = 2;
+    string email_address = 3;
+    string team = 4;
+    Employee_Type employee_type = 6;
+    
+    string phone_number = 7;
+    string biography = 8;
+    string photo_url_small = 9;
+    string photo_url_large = 10;
+};
+
+enum Employee_Type {
+  NONE = 0;
+  FULL_TIME = 1;
+  PART_TIME = 2;
+  CONTRACTOR = 3;
+};

@@ -1,0 +1,6 @@
+syntax = "proto3";
+import "Employee.proto";
+
+message Employees {
+  repeated Employee employees = 1;
+}

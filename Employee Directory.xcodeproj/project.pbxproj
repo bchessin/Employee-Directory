@@ -15,6 +15,26 @@
 		BDE1F2EE25F91404009F6529 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDE1F2EC25F91404009F6529 /* LaunchScreen.storyboard */; };
 		BDE1F33625F91E25009F6529 /* EmployeeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F33525F91E25009F6529 /* EmployeeListViewController.swift */; };
 		BDE1F33C25F92453009F6529 /* InitialScreenTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F33B25F92453009F6529 /* InitialScreenTest.swift */; };
+		BDE1F34425F924E0009F6529 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F34025F924E0009F6529 /* Networking.swift */; };
+		BDE1F34525F924E0009F6529 /* NetworkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F34125F924E0009F6529 /* NetworkSession.swift */; };
+		BDE1F34625F924E0009F6529 /* NetworkingErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F34225F924E0009F6529 /* NetworkingErrorHandler.swift */; };
+		BDE1F34725F924E0009F6529 /* NetworkingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F34325F924E0009F6529 /* NetworkingRouter.swift */; };
+		BDE1F34E25F924FD009F6529 /* NetworkingErrorHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F34B25F924FD009F6529 /* NetworkingErrorHandlerTests.swift */; };
+		BDE1F34F25F924FD009F6529 /* NetworkingRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F34C25F924FD009F6529 /* NetworkingRouterTests.swift */; };
+		BDE1F35025F924FD009F6529 /* NetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F34D25F924FD009F6529 /* NetworkingTests.swift */; };
+		BDE1F35725F9252D009F6529 /* MockNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F35625F9252D009F6529 /* MockNetworking.swift */; };
+		BDE1F35D25F92560009F6529 /* MockEmployees.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F35C25F92560009F6529 /* MockEmployees.swift */; };
+		BDE1F36A25F925B6009F6529 /* Employees+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F36325F925B6009F6529 /* Employees+Extension.swift */; };
+		BDE1F36B25F925B6009F6529 /* Employee+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F36425F925B6009F6529 /* Employee+Extension.swift */; };
+		BDE1F36C25F925B6009F6529 /* Employee.proto in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F36625F925B6009F6529 /* Employee.proto */; };
+		BDE1F36D25F925B6009F6529 /* Employee.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F36725F925B6009F6529 /* Employee.pb.swift */; };
+		BDE1F36E25F925B6009F6529 /* Employees.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F36825F925B6009F6529 /* Employees.pb.swift */; };
+		BDE1F36F25F925B6009F6529 /* Employees.proto in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F36925F925B6009F6529 /* Employees.proto */; };
+		BDE1F37425F925CD009F6529 /* EmployeeModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F37325F925CD009F6529 /* EmployeeModelTests.swift */; };
+		BDE1F37A25F9264C009F6529 /* MockSessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F37925F9264C009F6529 /* MockSessions.swift */; };
+		BDE1F38225F92670009F6529 /* employees_malformed.json in Resources */ = {isa = PBXBuildFile; fileRef = BDE1F37F25F92670009F6529 /* employees_malformed.json */; };
+		BDE1F38325F92670009F6529 /* employees.json in Resources */ = {isa = PBXBuildFile; fileRef = BDE1F38025F92670009F6529 /* employees.json */; };
+		BDE1F38425F92670009F6529 /* employees_empty.json in Resources */ = {isa = PBXBuildFile; fileRef = BDE1F38125F92670009F6529 /* employees_empty.json */; };
 		E761BE3B9C1FEAF35E77229A /* Pods_Employee_Directory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CBEE08396843BF1BF96F6A /* Pods_Employee_Directory.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +64,26 @@
 		BDE1F2FA25F91405009F6529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDE1F33525F91E25009F6529 /* EmployeeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListViewController.swift; sourceTree = "<group>"; };
 		BDE1F33B25F92453009F6529 /* InitialScreenTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialScreenTest.swift; sourceTree = "<group>"; };
+		BDE1F34025F924E0009F6529 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		BDE1F34125F924E0009F6529 /* NetworkSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkSession.swift; sourceTree = "<group>"; };
+		BDE1F34225F924E0009F6529 /* NetworkingErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingErrorHandler.swift; sourceTree = "<group>"; };
+		BDE1F34325F924E0009F6529 /* NetworkingRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingRouter.swift; sourceTree = "<group>"; };
+		BDE1F34B25F924FD009F6529 /* NetworkingErrorHandlerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingErrorHandlerTests.swift; sourceTree = "<group>"; };
+		BDE1F34C25F924FD009F6529 /* NetworkingRouterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingRouterTests.swift; sourceTree = "<group>"; };
+		BDE1F34D25F924FD009F6529 /* NetworkingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingTests.swift; sourceTree = "<group>"; };
+		BDE1F35625F9252D009F6529 /* MockNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockNetworking.swift; sourceTree = "<group>"; };
+		BDE1F35C25F92560009F6529 /* MockEmployees.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockEmployees.swift; sourceTree = "<group>"; };
+		BDE1F36325F925B6009F6529 /* Employees+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Employees+Extension.swift"; sourceTree = "<group>"; };
+		BDE1F36425F925B6009F6529 /* Employee+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Employee+Extension.swift"; sourceTree = "<group>"; };
+		BDE1F36625F925B6009F6529 /* Employee.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.protobuf; path = Employee.proto; sourceTree = "<group>"; };
+		BDE1F36725F925B6009F6529 /* Employee.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employee.pb.swift; sourceTree = "<group>"; };
+		BDE1F36825F925B6009F6529 /* Employees.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employees.pb.swift; sourceTree = "<group>"; };
+		BDE1F36925F925B6009F6529 /* Employees.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.protobuf; path = Employees.proto; sourceTree = "<group>"; };
+		BDE1F37325F925CD009F6529 /* EmployeeModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeModelTests.swift; sourceTree = "<group>"; };
+		BDE1F37925F9264C009F6529 /* MockSessions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockSessions.swift; sourceTree = "<group>"; };
+		BDE1F37F25F92670009F6529 /* employees_malformed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = employees_malformed.json; sourceTree = "<group>"; };
+		BDE1F38025F92670009F6529 /* employees.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = employees.json; sourceTree = "<group>"; };
+		BDE1F38125F92670009F6529 /* employees_empty.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = employees_empty.json; sourceTree = "<group>"; };
 		D9CBEE08396843BF1BF96F6A /* Pods_Employee_Directory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Employee_Directory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F179A6009AE1F6E057016BBF /* Pods-Employee Directory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Employee Directory.debug.xcconfig"; path = "Target Support Files/Pods-Employee Directory/Pods-Employee Directory.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,6 +140,9 @@
 		BDE1F2E025F91402009F6529 /* Employee Directory */ = {
 			isa = PBXGroup;
 			children = (
+				BDE1F36225F925B6009F6529 /* Model Extensions */,
+				BDE1F36525F925B6009F6529 /* Models */,
+				BDE1F33F25F924E0009F6529 /* Networking */,
 				BDE1F33425F91E0C009F6529 /* Views */,
 				BDE1F2E125F91402009F6529 /* AppDelegate.swift */,
 				BDE1F2E325F91402009F6529 /* SceneDelegate.swift */,
@@ -114,6 +157,9 @@
 		BDE1F2F725F91405009F6529 /* Employee DirectoryTests */ = {
 			isa = PBXGroup;
 			children = (
+				BDE1F37225F925CD009F6529 /* Model Extensions */,
+				BDE1F35525F92520009F6529 /* Mocks */,
+				BDE1F34A25F924FD009F6529 /* Networking */,
 				BDE1F33B25F92453009F6529 /* InitialScreenTest.swift */,
 				BDE1F2FA25F91405009F6529 /* Info.plist */,
 			);
@@ -126,6 +172,68 @@
 				BDE1F33525F91E25009F6529 /* EmployeeListViewController.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		BDE1F33F25F924E0009F6529 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				BDE1F34025F924E0009F6529 /* Networking.swift */,
+				BDE1F34125F924E0009F6529 /* NetworkSession.swift */,
+				BDE1F34225F924E0009F6529 /* NetworkingErrorHandler.swift */,
+				BDE1F34325F924E0009F6529 /* NetworkingRouter.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		BDE1F34A25F924FD009F6529 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				BDE1F34B25F924FD009F6529 /* NetworkingErrorHandlerTests.swift */,
+				BDE1F34C25F924FD009F6529 /* NetworkingRouterTests.swift */,
+				BDE1F34D25F924FD009F6529 /* NetworkingTests.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		BDE1F35525F92520009F6529 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				BDE1F37925F9264C009F6529 /* MockSessions.swift */,
+				BDE1F35C25F92560009F6529 /* MockEmployees.swift */,
+				BDE1F35625F9252D009F6529 /* MockNetworking.swift */,
+				BDE1F38125F92670009F6529 /* employees_empty.json */,
+				BDE1F37F25F92670009F6529 /* employees_malformed.json */,
+				BDE1F38025F92670009F6529 /* employees.json */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		BDE1F36225F925B6009F6529 /* Model Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BDE1F36325F925B6009F6529 /* Employees+Extension.swift */,
+				BDE1F36425F925B6009F6529 /* Employee+Extension.swift */,
+			);
+			path = "Model Extensions";
+			sourceTree = "<group>";
+		};
+		BDE1F36525F925B6009F6529 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BDE1F36625F925B6009F6529 /* Employee.proto */,
+				BDE1F36725F925B6009F6529 /* Employee.pb.swift */,
+				BDE1F36825F925B6009F6529 /* Employees.pb.swift */,
+				BDE1F36925F925B6009F6529 /* Employees.proto */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BDE1F37225F925CD009F6529 /* Model Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BDE1F37325F925CD009F6529 /* EmployeeModelTests.swift */,
+			);
+			path = "Model Extensions";
 			sourceTree = "<group>";
 		};
 		BFB1CFABDF2BA3D2C364FC6B /* Pods */ = {
@@ -233,6 +341,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDE1F38225F92670009F6529 /* employees_malformed.json in Resources */,
+				BDE1F38325F92670009F6529 /* employees.json in Resources */,
+				BDE1F38425F92670009F6529 /* employees_empty.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,9 +418,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDE1F36B25F925B6009F6529 /* Employee+Extension.swift in Sources */,
 				BDE1F2E225F91402009F6529 /* AppDelegate.swift in Sources */,
+				BDE1F34625F924E0009F6529 /* NetworkingErrorHandler.swift in Sources */,
+				BDE1F34525F924E0009F6529 /* NetworkSession.swift in Sources */,
+				BDE1F36E25F925B6009F6529 /* Employees.pb.swift in Sources */,
+				BDE1F36D25F925B6009F6529 /* Employee.pb.swift in Sources */,
+				BDE1F34725F924E0009F6529 /* NetworkingRouter.swift in Sources */,
 				BDE1F2E425F91402009F6529 /* SceneDelegate.swift in Sources */,
+				BDE1F36F25F925B6009F6529 /* Employees.proto in Sources */,
 				BDE1F33625F91E25009F6529 /* EmployeeListViewController.swift in Sources */,
+				BDE1F34425F924E0009F6529 /* Networking.swift in Sources */,
+				BDE1F36C25F925B6009F6529 /* Employee.proto in Sources */,
+				BDE1F36A25F925B6009F6529 /* Employees+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +439,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDE1F33C25F92453009F6529 /* InitialScreenTest.swift in Sources */,
+				BDE1F34F25F924FD009F6529 /* NetworkingRouterTests.swift in Sources */,
+				BDE1F35725F9252D009F6529 /* MockNetworking.swift in Sources */,
+				BDE1F35D25F92560009F6529 /* MockEmployees.swift in Sources */,
+				BDE1F37425F925CD009F6529 /* EmployeeModelTests.swift in Sources */,
+				BDE1F34E25F924FD009F6529 /* NetworkingErrorHandlerTests.swift in Sources */,
+				BDE1F37A25F9264C009F6529 /* MockSessions.swift in Sources */,
+				BDE1F35025F924FD009F6529 /* NetworkingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

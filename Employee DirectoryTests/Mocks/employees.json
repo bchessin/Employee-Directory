@@ -1,0 +1,25 @@
+{
+    "employees": [{
+            "uuid": "1234",
+            "full_name": "Megan R.",
+            "phone_number": "1234567890",
+            "email_address": "sampleemail@gmail.com",
+            "biography": "Sample Bio",
+            "photo_url_small": "https://example.com/img1.jpg",
+            "photo_url_large": "https://example.com/img2.jpg",
+            "team": "Cash",
+            "employee_type": "FULL_TIME"
+        },
+        {
+            "uuid": "1234",
+            "full_name": "Brad C.",
+            "phone_number": "1234567890",
+            "email_address": "sampleemail2@gmail.com",
+            "biography": "Sample Bio 2",
+            "photo_url_small": "https://example.com/img3.jpg",
+            "photo_url_large": "https://example.com/img4.jpg",
+            "team": "Platform",
+            "employee_type": "FULL_TIME"
+        }
+    ]
+}
