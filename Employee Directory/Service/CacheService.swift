@@ -13,9 +13,8 @@ import UIKit
  For the sake of this project it has been kept fairly simple, however we can add costLimits, expiration of certain objects, amongst
  other things fairly easily. 
  */
+private let cache = NSCache<NSString, NSData>()
 final class CacheService {
-    private let cache = NSCache<NSString, NSData>()
-    
     public init() {
         // When the caching layer is instantiated, also add observer in case we have a low memory warning
         NotificationCenter.default.addObserver(

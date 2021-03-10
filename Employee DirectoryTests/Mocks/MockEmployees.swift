@@ -10,17 +10,7 @@ import XCTest
 
 class MockEmployees {
     private func url(for fileName: String) -> URL? {
-        let bundle = Bundle(for: MockEmployees.self)
-        
-        let docsPath = bundle.resourcePath!
-        let fileManager = FileManager.default
-        do {
-            let docsArray = try fileManager.contentsOfDirectory(atPath: docsPath)
-            print(docsArray)
-        } catch {
-            print(error)
-        }
-        
+        let bundle = Bundle(for: MockEmployees.self)       
         let url = bundle.url(forResource: fileName, withExtension: "json")
         return url
     }

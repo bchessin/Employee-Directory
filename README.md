@@ -12,7 +12,7 @@ Xcode 12.4. App supports iOS 13+, however I mainly tested on iOS 14.4. You may n
 - I adopted a non-storyboard approach since I find it is much better for PR reviews and readability.
 6. Support for portrait and landscape modes
 7. Accessibility - readouts are clear and localized
-- Accessibility bugs can have legal repercussions, so it is extremely important to the app is ADA complaint and has no accessibility identifier audit issues.
+- Accessibility bugs can have legal repercussions, so it is extremely important to the app is ADA complaint and has clear readouts
 - Supports dynamic font sizes! (Check screenshots below)
 8. Localization (english / spanish support for now)
 9. Automatic image caching with UIImageView subclass
@@ -55,8 +55,8 @@ About 5 hours over the course of a day.
 ## App Screenshots
 Normal Dynamic Font Size
 
-![Normal Dynamic Font Size](https://i.ibb.co/NyvMrqT/Simulator-Screen-Shot-i-Pod-touch-7th-generation-2021-03-10-at-17-36-33.png)
+![Normal Dynamic Font Size](https://i.ibb.co/hVsnh3p/Simulator-Screen-Shot-i-Pod-touch-7th-generation-2021-03-10-at-17-52-32.png)
 
 Large Dynamic Font Size
 
-![Large Dynamic Font Size](https://i.ibb.co/0K3BHz3/Simulator-Screen-Shot-i-Pod-touch-7th-generation-2021-03-10-at-17-36-51.png)
+![Large Dynamic Font Size](https://i.ibb.co/JqYwvg7/Simulator-Screen-Shot-i-Pod-touch-7th-generation-2021-03-10-at-17-52-46.png)
