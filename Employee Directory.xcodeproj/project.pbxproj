@@ -10,7 +10,6 @@
 		420405D1ECC92B2C5B1273D4 /* Pods_Employee_DirectoryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3148504B31F5DC78158D7BBD /* Pods_Employee_DirectoryTests.framework */; };
 		BDE1F2E225F91402009F6529 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F2E125F91402009F6529 /* AppDelegate.swift */; };
 		BDE1F2E425F91402009F6529 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F2E325F91402009F6529 /* SceneDelegate.swift */; };
-		BDE1F2E925F91402009F6529 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDE1F2E725F91402009F6529 /* Main.storyboard */; };
 		BDE1F2EB25F91404009F6529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDE1F2EA25F91404009F6529 /* Assets.xcassets */; };
 		BDE1F2EE25F91404009F6529 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDE1F2EC25F91404009F6529 /* LaunchScreen.storyboard */; };
 		BDE1F33625F91E25009F6529 /* EmployeeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F33525F91E25009F6529 /* EmployeeListViewController.swift */; };
@@ -35,6 +34,16 @@
 		BDE1F38225F92670009F6529 /* employees_malformed.json in Resources */ = {isa = PBXBuildFile; fileRef = BDE1F37F25F92670009F6529 /* employees_malformed.json */; };
 		BDE1F38325F92670009F6529 /* employees.json in Resources */ = {isa = PBXBuildFile; fileRef = BDE1F38025F92670009F6529 /* employees.json */; };
 		BDE1F38425F92670009F6529 /* employees_empty.json in Resources */ = {isa = PBXBuildFile; fileRef = BDE1F38125F92670009F6529 /* employees_empty.json */; };
+		BDE1F38F25F92FA1009F6529 /* CacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F38A25F92FA1009F6529 /* CacheService.swift */; };
+		BDE1F39025F92FA1009F6529 /* EmployeeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F38B25F92FA1009F6529 /* EmployeeService.swift */; };
+		BDE1F39125F92FA1009F6529 /* CachedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F38D25F92FA1009F6529 /* CachedImageView.swift */; };
+		BDE1F39225F92FA1009F6529 /* SquareColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F38E25F92FA1009F6529 /* SquareColors.swift */; };
+		BDE1F39A25F92FB1009F6529 /* CachedImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F39625F92FB0009F6529 /* CachedImageViewTests.swift */; };
+		BDE1F39B25F92FB1009F6529 /* EmployeeServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F39825F92FB0009F6529 /* EmployeeServiceTests.swift */; };
+		BDE1F39C25F92FB1009F6529 /* CacheServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F39925F92FB0009F6529 /* CacheServiceTests.swift */; };
+		BDE1F3A525F92FC9009F6529 /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F3A325F92FC9009F6529 /* StringHelper.swift */; };
+		BDE1F3B025F93006009F6529 /* MockCacheImageViewSessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F3AF25F93006009F6529 /* MockCacheImageViewSessions.swift */; };
+		BDE1F3B625F93274009F6529 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDE1F3B525F93274009F6529 /* Localizable.strings */; };
 		E761BE3B9C1FEAF35E77229A /* Pods_Employee_Directory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CBEE08396843BF1BF96F6A /* Pods_Employee_Directory.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,7 +65,6 @@
 		BDE1F2DE25F91402009F6529 /* Employee Directory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Employee Directory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDE1F2E125F91402009F6529 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDE1F2E325F91402009F6529 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BDE1F2E825F91402009F6529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BDE1F2EA25F91404009F6529 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDE1F2ED25F91404009F6529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDE1F2EF25F91404009F6529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -84,6 +92,16 @@
 		BDE1F37F25F92670009F6529 /* employees_malformed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = employees_malformed.json; sourceTree = "<group>"; };
 		BDE1F38025F92670009F6529 /* employees.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = employees.json; sourceTree = "<group>"; };
 		BDE1F38125F92670009F6529 /* employees_empty.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = employees_empty.json; sourceTree = "<group>"; };
+		BDE1F38A25F92FA1009F6529 /* CacheService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheService.swift; sourceTree = "<group>"; };
+		BDE1F38B25F92FA1009F6529 /* EmployeeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeService.swift; sourceTree = "<group>"; };
+		BDE1F38D25F92FA1009F6529 /* CachedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CachedImageView.swift; sourceTree = "<group>"; };
+		BDE1F38E25F92FA1009F6529 /* SquareColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareColors.swift; sourceTree = "<group>"; };
+		BDE1F39625F92FB0009F6529 /* CachedImageViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CachedImageViewTests.swift; sourceTree = "<group>"; };
+		BDE1F39825F92FB0009F6529 /* EmployeeServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeServiceTests.swift; sourceTree = "<group>"; };
+		BDE1F39925F92FB0009F6529 /* CacheServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheServiceTests.swift; sourceTree = "<group>"; };
+		BDE1F3A325F92FC9009F6529 /* StringHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringHelper.swift; sourceTree = "<group>"; };
+		BDE1F3AF25F93006009F6529 /* MockCacheImageViewSessions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockCacheImageViewSessions.swift; sourceTree = "<group>"; };
+		BDE1F3B525F93274009F6529 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		D9CBEE08396843BF1BF96F6A /* Pods_Employee_Directory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Employee_Directory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F179A6009AE1F6E057016BBF /* Pods-Employee Directory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Employee Directory.debug.xcconfig"; path = "Target Support Files/Pods-Employee Directory/Pods-Employee Directory.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,16 +158,19 @@
 		BDE1F2E025F91402009F6529 /* Employee Directory */ = {
 			isa = PBXGroup;
 			children = (
+				BDE1F3A125F92FC9009F6529 /* Helpers */,
+				BDE1F38925F92FA1009F6529 /* Service */,
+				BDE1F38C25F92FA1009F6529 /* Utils */,
 				BDE1F36225F925B6009F6529 /* Model Extensions */,
 				BDE1F36525F925B6009F6529 /* Models */,
 				BDE1F33F25F924E0009F6529 /* Networking */,
 				BDE1F33425F91E0C009F6529 /* Views */,
 				BDE1F2E125F91402009F6529 /* AppDelegate.swift */,
 				BDE1F2E325F91402009F6529 /* SceneDelegate.swift */,
-				BDE1F2E725F91402009F6529 /* Main.storyboard */,
 				BDE1F2EA25F91404009F6529 /* Assets.xcassets */,
 				BDE1F2EC25F91404009F6529 /* LaunchScreen.storyboard */,
 				BDE1F2EF25F91404009F6529 /* Info.plist */,
+				BDE1F3B525F93274009F6529 /* Localizable.strings */,
 			);
 			path = "Employee Directory";
 			sourceTree = "<group>";
@@ -157,6 +178,8 @@
 		BDE1F2F725F91405009F6529 /* Employee DirectoryTests */ = {
 			isa = PBXGroup;
 			children = (
+				BDE1F39725F92FB0009F6529 /* Service */,
+				BDE1F39525F92FB0009F6529 /* Utils */,
 				BDE1F37225F925CD009F6529 /* Model Extensions */,
 				BDE1F35525F92520009F6529 /* Mocks */,
 				BDE1F34A25F924FD009F6529 /* Networking */,
@@ -198,6 +221,7 @@
 		BDE1F35525F92520009F6529 /* Mocks */ = {
 			isa = PBXGroup;
 			children = (
+				BDE1F3AF25F93006009F6529 /* MockCacheImageViewSessions.swift */,
 				BDE1F37925F9264C009F6529 /* MockSessions.swift */,
 				BDE1F35C25F92560009F6529 /* MockEmployees.swift */,
 				BDE1F35625F9252D009F6529 /* MockNetworking.swift */,
@@ -234,6 +258,49 @@
 				BDE1F37325F925CD009F6529 /* EmployeeModelTests.swift */,
 			);
 			path = "Model Extensions";
+			sourceTree = "<group>";
+		};
+		BDE1F38925F92FA1009F6529 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				BDE1F38A25F92FA1009F6529 /* CacheService.swift */,
+				BDE1F38B25F92FA1009F6529 /* EmployeeService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		BDE1F38C25F92FA1009F6529 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BDE1F38D25F92FA1009F6529 /* CachedImageView.swift */,
+				BDE1F38E25F92FA1009F6529 /* SquareColors.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BDE1F39525F92FB0009F6529 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BDE1F39625F92FB0009F6529 /* CachedImageViewTests.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BDE1F39725F92FB0009F6529 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				BDE1F39825F92FB0009F6529 /* EmployeeServiceTests.swift */,
+				BDE1F39925F92FB0009F6529 /* CacheServiceTests.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		BDE1F3A125F92FC9009F6529 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BDE1F3A325F92FC9009F6529 /* StringHelper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		BFB1CFABDF2BA3D2C364FC6B /* Pods */ = {
@@ -332,8 +399,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDE1F2EE25F91404009F6529 /* LaunchScreen.storyboard in Resources */,
+				BDE1F3B625F93274009F6529 /* Localizable.strings in Resources */,
 				BDE1F2EB25F91404009F6529 /* Assets.xcassets in Resources */,
-				BDE1F2E925F91402009F6529 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,17 +486,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDE1F36B25F925B6009F6529 /* Employee+Extension.swift in Sources */,
+				BDE1F3A525F92FC9009F6529 /* StringHelper.swift in Sources */,
 				BDE1F2E225F91402009F6529 /* AppDelegate.swift in Sources */,
 				BDE1F34625F924E0009F6529 /* NetworkingErrorHandler.swift in Sources */,
 				BDE1F34525F924E0009F6529 /* NetworkSession.swift in Sources */,
 				BDE1F36E25F925B6009F6529 /* Employees.pb.swift in Sources */,
+				BDE1F39225F92FA1009F6529 /* SquareColors.swift in Sources */,
 				BDE1F36D25F925B6009F6529 /* Employee.pb.swift in Sources */,
+				BDE1F39125F92FA1009F6529 /* CachedImageView.swift in Sources */,
 				BDE1F34725F924E0009F6529 /* NetworkingRouter.swift in Sources */,
+				BDE1F39025F92FA1009F6529 /* EmployeeService.swift in Sources */,
 				BDE1F2E425F91402009F6529 /* SceneDelegate.swift in Sources */,
 				BDE1F36F25F925B6009F6529 /* Employees.proto in Sources */,
 				BDE1F33625F91E25009F6529 /* EmployeeListViewController.swift in Sources */,
 				BDE1F34425F924E0009F6529 /* Networking.swift in Sources */,
 				BDE1F36C25F925B6009F6529 /* Employee.proto in Sources */,
+				BDE1F38F25F92FA1009F6529 /* CacheService.swift in Sources */,
 				BDE1F36A25F925B6009F6529 /* Employees+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,13 +511,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDE1F33C25F92453009F6529 /* InitialScreenTest.swift in Sources */,
+				BDE1F3B025F93006009F6529 /* MockCacheImageViewSessions.swift in Sources */,
+				BDE1F39B25F92FB1009F6529 /* EmployeeServiceTests.swift in Sources */,
 				BDE1F34F25F924FD009F6529 /* NetworkingRouterTests.swift in Sources */,
 				BDE1F35725F9252D009F6529 /* MockNetworking.swift in Sources */,
+				BDE1F39A25F92FB1009F6529 /* CachedImageViewTests.swift in Sources */,
 				BDE1F35D25F92560009F6529 /* MockEmployees.swift in Sources */,
 				BDE1F37425F925CD009F6529 /* EmployeeModelTests.swift in Sources */,
 				BDE1F34E25F924FD009F6529 /* NetworkingErrorHandlerTests.swift in Sources */,
 				BDE1F37A25F9264C009F6529 /* MockSessions.swift in Sources */,
 				BDE1F35025F924FD009F6529 /* NetworkingTests.swift in Sources */,
+				BDE1F39C25F92FB1009F6529 /* CacheServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,14 +536,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BDE1F2E725F91402009F6529 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BDE1F2E825F91402009F6529 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BDE1F2EC25F91404009F6529 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
