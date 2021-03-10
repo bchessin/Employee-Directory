@@ -44,6 +44,7 @@ class Networking: NetworkingProtocol {
         // Initialize the request 
         var urlRequest = URLRequest(url: url)
         urlRequest.httpMethod = router.httpMethod?.rawValue
+        urlRequest.timeoutInterval = 15
         
         // Start the session
         session.loadData(from: urlRequest) { (data, error) in
