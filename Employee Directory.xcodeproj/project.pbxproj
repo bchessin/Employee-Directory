@@ -14,6 +14,7 @@
 		BDE1F2EB25F91404009F6529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDE1F2EA25F91404009F6529 /* Assets.xcassets */; };
 		BDE1F2EE25F91404009F6529 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDE1F2EC25F91404009F6529 /* LaunchScreen.storyboard */; };
 		BDE1F33625F91E25009F6529 /* EmployeeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F33525F91E25009F6529 /* EmployeeListViewController.swift */; };
+		BDE1F33C25F92453009F6529 /* InitialScreenTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F33B25F92453009F6529 /* InitialScreenTest.swift */; };
 		E761BE3B9C1FEAF35E77229A /* Pods_Employee_Directory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CBEE08396843BF1BF96F6A /* Pods_Employee_Directory.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		BDE1F2F425F91405009F6529 /* Employee DirectoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Employee DirectoryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDE1F2FA25F91405009F6529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDE1F33525F91E25009F6529 /* EmployeeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListViewController.swift; sourceTree = "<group>"; };
+		BDE1F33B25F92453009F6529 /* InitialScreenTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialScreenTest.swift; sourceTree = "<group>"; };
 		D9CBEE08396843BF1BF96F6A /* Pods_Employee_Directory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Employee_Directory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F179A6009AE1F6E057016BBF /* Pods-Employee Directory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Employee Directory.debug.xcconfig"; path = "Target Support Files/Pods-Employee Directory/Pods-Employee Directory.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,6 +114,7 @@
 		BDE1F2F725F91405009F6529 /* Employee DirectoryTests */ = {
 			isa = PBXGroup;
 			children = (
+				BDE1F33B25F92453009F6529 /* InitialScreenTest.swift */,
 				BDE1F2FA25F91405009F6529 /* Info.plist */,
 			);
 			path = "Employee DirectoryTests";
@@ -191,6 +194,7 @@
 					};
 					BDE1F2F325F91405009F6529 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 						TestTargetID = BDE1F2DD25F91402009F6529;
 					};
 				};
@@ -313,6 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDE1F33C25F92453009F6529 /* InitialScreenTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,6 +515,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TJ53FWTPA8;
 				INFOPLIST_FILE = "Employee DirectoryTests/Info.plist";
@@ -521,6 +527,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Brad-Chessin.Employee-DirectoryTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Employee Directory.app/Employee Directory";
@@ -533,6 +540,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TJ53FWTPA8;
 				INFOPLIST_FILE = "Employee DirectoryTests/Info.plist";
