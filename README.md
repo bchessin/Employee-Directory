@@ -45,7 +45,16 @@ About 5 hours over the course of a day.
 8. Better UI support for slow connectivity edge case (i.e "Still Loading..." alert/pop-up after a few seconds)
 9. Dynamic UITableViewCell heights based upon dynamic font types. Right now it is hardcoded to a height of 100.
 10. More testing mocks (i.e for EmployeeListViewModel in CachedImageViewTests) - this would allow for greater scalability/flexibility in the future
-11. Better constraints for edge cases - if dynamic font size text is super big the employee cell should not waste any space
+11. Better constraints for edge cases
+- If dynamic font size text is super big the employee cell should not waste any space at the top or bottom
+- Profile image view should scale up/down slightly while maintaining 1:1 aspect ratio
 
 ## Architecture Diagram
 ![Architecture Diagram](https://i.ibb.co/YPT6BTT/Employee-Directory.png)
+
+## App Screenshots
+Normal Dynamic Font Size
+![Normal Dynamic Font Size](https://i.ibb.co/NyvMrqT/Simulator-Screen-Shot-i-Pod-touch-7th-generation-2021-03-10-at-17-36-33.png)
+
+Large Dynamic Font Size
+![Large Dynamic Font Size](https://i.ibb.co/0K3BHz3/Simulator-Screen-Shot-i-Pod-touch-7th-generation-2021-03-10-at-17-36-51.png)
