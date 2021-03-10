@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Employee Directory
 //
-//  Created by iBrad on 3/10/21.
+//  Created by Bradford Chessin on 3/10/21.
 //
 
 import UIKit
