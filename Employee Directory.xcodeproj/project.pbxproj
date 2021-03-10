@@ -24,10 +24,8 @@
 		BDE1F35D25F92560009F6529 /* MockEmployees.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F35C25F92560009F6529 /* MockEmployees.swift */; };
 		BDE1F36A25F925B6009F6529 /* Employees+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F36325F925B6009F6529 /* Employees+Extension.swift */; };
 		BDE1F36B25F925B6009F6529 /* Employee+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F36425F925B6009F6529 /* Employee+Extension.swift */; };
-		BDE1F36C25F925B6009F6529 /* Employee.proto in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F36625F925B6009F6529 /* Employee.proto */; };
 		BDE1F36D25F925B6009F6529 /* Employee.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F36725F925B6009F6529 /* Employee.pb.swift */; };
 		BDE1F36E25F925B6009F6529 /* Employees.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F36825F925B6009F6529 /* Employees.pb.swift */; };
-		BDE1F36F25F925B6009F6529 /* Employees.proto in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F36925F925B6009F6529 /* Employees.proto */; };
 		BDE1F37425F925CD009F6529 /* EmployeeModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F37325F925CD009F6529 /* EmployeeModelTests.swift */; };
 		BDE1F37A25F9264C009F6529 /* MockSessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F37925F9264C009F6529 /* MockSessions.swift */; };
 		BDE1F38225F92670009F6529 /* employees_malformed.json in Resources */ = {isa = PBXBuildFile; fileRef = BDE1F37F25F92670009F6529 /* employees_malformed.json */; };
@@ -252,8 +250,8 @@
 				BDE1F36225F925B6009F6529 /* Extensions */,
 				BDE1F36625F925B6009F6529 /* Employee.proto */,
 				BDE1F36725F925B6009F6529 /* Employee.pb.swift */,
-				BDE1F36825F925B6009F6529 /* Employees.pb.swift */,
 				BDE1F36925F925B6009F6529 /* Employees.proto */,
+				BDE1F36825F925B6009F6529 /* Employees.pb.swift */,
 			);
 			path = "Models + Extensions";
 			sourceTree = "<group>";
@@ -538,11 +536,9 @@
 				BDE1F34725F924E0009F6529 /* NetworkingRouter.swift in Sources */,
 				BDE1F39025F92FA1009F6529 /* EmployeeService.swift in Sources */,
 				BDE1F2E425F91402009F6529 /* SceneDelegate.swift in Sources */,
-				BDE1F36F25F925B6009F6529 /* Employees.proto in Sources */,
 				BDE1F3EA25F95A95009F6529 /* EmployeesListViewController.swift in Sources */,
 				BDE1F3C125F9594C009F6529 /* EmployeesListViewModel.swift in Sources */,
 				BDE1F34425F924E0009F6529 /* Networking.swift in Sources */,
-				BDE1F36C25F925B6009F6529 /* Employee.proto in Sources */,
 				BDE1F38F25F92FA1009F6529 /* CacheService.swift in Sources */,
 				BDE1F36A25F925B6009F6529 /* Employees+Extension.swift in Sources */,
 			);

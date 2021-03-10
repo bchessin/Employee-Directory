@@ -27,9 +27,7 @@ enum PredefinedRoute {
     }
 }
 
-/**
- This router will take in a predefined route or a dynamic URL (i.e from a JSON).
- */
+// This router will take in a predefined route or a dynamic URL (i.e from a JSON).
 class NetworkingRouter {
     var url: URL?
     var httpMethod: HTTPMethod?

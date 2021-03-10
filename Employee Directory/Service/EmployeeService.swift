@@ -8,7 +8,7 @@
 import Foundation
 import SwiftProtobuf
 
-// Two kinds of result states, success and failure. Success returns list of Employees. Failure provides reason
+// Three kinds of result states. Success returns list of Employees. Failure provides reason. Empty = no employees to show
 enum EmployeesServiceResult {
     case empty
     case success([Employee])

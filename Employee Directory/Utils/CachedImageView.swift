@@ -21,6 +21,7 @@ final class CachedImageView: UIImageView {
         super.init(image: nil)
     }
     
+    // No need for this initializer right now
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }

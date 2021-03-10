@@ -7,9 +7,7 @@
 
 import Foundation
 
-/**
- Four types of errors we handle, with an associated error message
- */
+// Four types of errors we handle, with an associated error message
 enum NetworkingError: String {
     // The strings map to the localized string key
     case connectionLost = "Connection Lost"

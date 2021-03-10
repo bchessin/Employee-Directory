@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 
+// Shared colors that can be used across the project
 extension UIColor {
     static let squareBlack = UIColor(hue: 0.1333, saturation: 0.63, brightness: 0.09, alpha: 1.0) /* #161408 */
     static let squareBlue = UIColor(hue: 0.6528, saturation: 0.41, brightness: 0.99, alpha: 1.0) /* #949dfc */
