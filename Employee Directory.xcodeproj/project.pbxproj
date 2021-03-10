@@ -44,6 +44,9 @@
 		BDE1F3A525F92FC9009F6529 /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F3A325F92FC9009F6529 /* StringHelper.swift */; };
 		BDE1F3B025F93006009F6529 /* MockCacheImageViewSessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F3AF25F93006009F6529 /* MockCacheImageViewSessions.swift */; };
 		BDE1F3B625F93274009F6529 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDE1F3B525F93274009F6529 /* Localizable.strings */; };
+		BDE1F3C125F9594C009F6529 /* EmployeesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F3C025F9594C009F6529 /* EmployeesListViewModel.swift */; };
+		BDE1F3C825F9595C009F6529 /* EmployeesListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F3C725F9595C009F6529 /* EmployeesListViewModelTests.swift */; };
+		BDE1F3CE25F95985009F6529 /* MockEmployeeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F3CD25F95985009F6529 /* MockEmployeeService.swift */; };
 		E761BE3B9C1FEAF35E77229A /* Pods_Employee_Directory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CBEE08396843BF1BF96F6A /* Pods_Employee_Directory.framework */; };
 /* End PBXBuildFile section */
 
@@ -102,6 +105,9 @@
 		BDE1F3A325F92FC9009F6529 /* StringHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringHelper.swift; sourceTree = "<group>"; };
 		BDE1F3AF25F93006009F6529 /* MockCacheImageViewSessions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockCacheImageViewSessions.swift; sourceTree = "<group>"; };
 		BDE1F3B525F93274009F6529 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		BDE1F3C025F9594C009F6529 /* EmployeesListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeesListViewModel.swift; sourceTree = "<group>"; };
+		BDE1F3C725F9595C009F6529 /* EmployeesListViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeesListViewModelTests.swift; sourceTree = "<group>"; };
+		BDE1F3CD25F95985009F6529 /* MockEmployeeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockEmployeeService.swift; sourceTree = "<group>"; };
 		D9CBEE08396843BF1BF96F6A /* Pods_Employee_Directory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Employee_Directory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F179A6009AE1F6E057016BBF /* Pods-Employee Directory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Employee Directory.debug.xcconfig"; path = "Target Support Files/Pods-Employee Directory/Pods-Employee Directory.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,6 +164,7 @@
 		BDE1F2E025F91402009F6529 /* Employee Directory */ = {
 			isa = PBXGroup;
 			children = (
+				BDE1F3BF25F9594C009F6529 /* View Model */,
 				BDE1F3A125F92FC9009F6529 /* Helpers */,
 				BDE1F38925F92FA1009F6529 /* Service */,
 				BDE1F38C25F92FA1009F6529 /* Utils */,
@@ -178,10 +185,11 @@
 		BDE1F2F725F91405009F6529 /* Employee DirectoryTests */ = {
 			isa = PBXGroup;
 			children = (
+				BDE1F35525F92520009F6529 /* Mocks */,
+				BDE1F3C625F9595C009F6529 /* View Models */,
 				BDE1F39725F92FB0009F6529 /* Service */,
 				BDE1F39525F92FB0009F6529 /* Utils */,
 				BDE1F37225F925CD009F6529 /* Model Extensions */,
-				BDE1F35525F92520009F6529 /* Mocks */,
 				BDE1F34A25F924FD009F6529 /* Networking */,
 				BDE1F33B25F92453009F6529 /* InitialScreenTest.swift */,
 				BDE1F2FA25F91405009F6529 /* Info.plist */,
@@ -221,6 +229,7 @@
 		BDE1F35525F92520009F6529 /* Mocks */ = {
 			isa = PBXGroup;
 			children = (
+				BDE1F3CD25F95985009F6529 /* MockEmployeeService.swift */,
 				BDE1F3AF25F93006009F6529 /* MockCacheImageViewSessions.swift */,
 				BDE1F37925F9264C009F6529 /* MockSessions.swift */,
 				BDE1F35C25F92560009F6529 /* MockEmployees.swift */,
@@ -301,6 +310,22 @@
 				BDE1F3A325F92FC9009F6529 /* StringHelper.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BDE1F3BF25F9594C009F6529 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				BDE1F3C025F9594C009F6529 /* EmployeesListViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		BDE1F3C625F9595C009F6529 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				BDE1F3C725F9595C009F6529 /* EmployeesListViewModelTests.swift */,
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 		BFB1CFABDF2BA3D2C364FC6B /* Pods */ = {
@@ -499,6 +524,7 @@
 				BDE1F2E425F91402009F6529 /* SceneDelegate.swift in Sources */,
 				BDE1F36F25F925B6009F6529 /* Employees.proto in Sources */,
 				BDE1F33625F91E25009F6529 /* EmployeeListViewController.swift in Sources */,
+				BDE1F3C125F9594C009F6529 /* EmployeesListViewModel.swift in Sources */,
 				BDE1F34425F924E0009F6529 /* Networking.swift in Sources */,
 				BDE1F36C25F925B6009F6529 /* Employee.proto in Sources */,
 				BDE1F38F25F92FA1009F6529 /* CacheService.swift in Sources */,
@@ -511,6 +537,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDE1F33C25F92453009F6529 /* InitialScreenTest.swift in Sources */,
+				BDE1F3C825F9595C009F6529 /* EmployeesListViewModelTests.swift in Sources */,
 				BDE1F3B025F93006009F6529 /* MockCacheImageViewSessions.swift in Sources */,
 				BDE1F39B25F92FB1009F6529 /* EmployeeServiceTests.swift in Sources */,
 				BDE1F34F25F924FD009F6529 /* NetworkingRouterTests.swift in Sources */,
@@ -518,6 +545,7 @@
 				BDE1F39A25F92FB1009F6529 /* CachedImageViewTests.swift in Sources */,
 				BDE1F35D25F92560009F6529 /* MockEmployees.swift in Sources */,
 				BDE1F37425F925CD009F6529 /* EmployeeModelTests.swift in Sources */,
+				BDE1F3CE25F95985009F6529 /* MockEmployeeService.swift in Sources */,
 				BDE1F34E25F924FD009F6529 /* NetworkingErrorHandlerTests.swift in Sources */,
 				BDE1F37A25F9264C009F6529 /* MockSessions.swift in Sources */,
 				BDE1F35025F924FD009F6529 /* NetworkingTests.swift in Sources */,
