@@ -13,6 +13,7 @@ Xcode 12.4. App supports iOS 13+, however I mainly tested on iOS 14.4. You may n
 6. Support for portrait and landscape modes
 7. Accessibility - readouts are clear and localized
 - Accessibility bugs can have legal repercussions, so it is extremely important to the app is ADA complaint and has no accessibility identifier audit issues.
+- Supports dynamic font sizes! (Check screenshots below)
 8. Localization (english / spanish support for now)
 9. Automatic image caching with UIImageView subclass
 - I subclassed `UIImageView` and have our subclassed image view interact with our Networking and Caching layer. This will prevent multiple networking calls from firing off for the same asset.
@@ -43,9 +44,8 @@ About 5 hours over the course of a day.
 6. Support for more locales (right now only english/spanish)
 7. SwiftUI
 8. Better UI support for slow connectivity edge case (i.e "Still Loading..." alert/pop-up after a few seconds)
-9. Dynamic UITableViewCell heights based upon dynamic font types. Right now it is hardcoded to a height of 100.
-10. More testing mocks (i.e for EmployeeListViewModel in CachedImageViewTests) - this would allow for greater scalability/flexibility in the future
-11. Better constraints for edge cases
+9. More testing mocks (i.e for EmployeeListViewModel in CachedImageViewTests) - this would allow for greater scalability/flexibility in the future
+10. Better UITableViewCell constraints for edge cases
 - If dynamic font size text is super big the employee cell should not waste any space at the top or bottom
 - Profile image view should scale up/down slightly while maintaining 1:1 aspect ratio
 
@@ -54,7 +54,9 @@ About 5 hours over the course of a day.
 
 ## App Screenshots
 Normal Dynamic Font Size
+
 ![Normal Dynamic Font Size](https://i.ibb.co/NyvMrqT/Simulator-Screen-Shot-i-Pod-touch-7th-generation-2021-03-10-at-17-36-33.png)
 
 Large Dynamic Font Size
+
 ![Large Dynamic Font Size](https://i.ibb.co/0K3BHz3/Simulator-Screen-Shot-i-Pod-touch-7th-generation-2021-03-10-at-17-36-51.png)
