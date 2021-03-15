@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		420405D1ECC92B2C5B1273D4 /* Pods_Employee_DirectoryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3148504B31F5DC78158D7BBD /* Pods_Employee_DirectoryTests.framework */; };
+		BD0E357C25FFE6CC006A2BF8 /* EmployeesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0E357A25FFE6CC006A2BF8 /* EmployeesListViewController.swift */; };
+		BD0E357D25FFE6CC006A2BF8 /* EmployeesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0E357B25FFE6CC006A2BF8 /* EmployeesListCell.swift */; };
 		BDE1F2E225F91402009F6529 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F2E125F91402009F6529 /* AppDelegate.swift */; };
 		BDE1F2E425F91402009F6529 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F2E325F91402009F6529 /* SceneDelegate.swift */; };
 		BDE1F2EB25F91404009F6529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDE1F2EA25F91404009F6529 /* Assets.xcassets */; };
@@ -44,8 +46,6 @@
 		BDE1F3C125F9594C009F6529 /* EmployeesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F3C025F9594C009F6529 /* EmployeesListViewModel.swift */; };
 		BDE1F3C825F9595C009F6529 /* EmployeesListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F3C725F9595C009F6529 /* EmployeesListViewModelTests.swift */; };
 		BDE1F3CE25F95985009F6529 /* MockEmployeeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F3CD25F95985009F6529 /* MockEmployeeService.swift */; };
-		BDE1F3EA25F95A95009F6529 /* EmployeesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F3E825F95A95009F6529 /* EmployeesListViewController.swift */; };
-		BDE1F3EB25F95A95009F6529 /* EmployeesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F3E925F95A95009F6529 /* EmployeesListCell.swift */; };
 		BDE1F3F225F95AA9009F6529 /* EmployeesListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1F3F125F95AA9009F6529 /* EmployeesListViewControllerTests.swift */; };
 		E761BE3B9C1FEAF35E77229A /* Pods_Employee_Directory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CBEE08396843BF1BF96F6A /* Pods_Employee_Directory.framework */; };
 /* End PBXBuildFile section */
@@ -65,6 +65,8 @@
 		4BC94F2F64DC721D3A7852F4 /* Pods-Employee DirectoryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Employee DirectoryTests.release.xcconfig"; path = "Target Support Files/Pods-Employee DirectoryTests/Pods-Employee DirectoryTests.release.xcconfig"; sourceTree = "<group>"; };
 		5D4FB2EB0F42E5BC8BE01822 /* Pods-Employee Directory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Employee Directory.release.xcconfig"; path = "Target Support Files/Pods-Employee Directory/Pods-Employee Directory.release.xcconfig"; sourceTree = "<group>"; };
 		729FFEC63780AB121D737B3C /* Pods-Employee DirectoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Employee DirectoryTests.debug.xcconfig"; path = "Target Support Files/Pods-Employee DirectoryTests/Pods-Employee DirectoryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD0E357A25FFE6CC006A2BF8 /* EmployeesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeesListViewController.swift; sourceTree = "<group>"; };
+		BD0E357B25FFE6CC006A2BF8 /* EmployeesListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeesListCell.swift; sourceTree = "<group>"; };
 		BDE1F2DE25F91402009F6529 /* Employee Directory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Employee Directory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDE1F2E125F91402009F6529 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDE1F2E325F91402009F6529 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,8 +109,6 @@
 		BDE1F3C025F9594C009F6529 /* EmployeesListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeesListViewModel.swift; sourceTree = "<group>"; };
 		BDE1F3C725F9595C009F6529 /* EmployeesListViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeesListViewModelTests.swift; sourceTree = "<group>"; };
 		BDE1F3CD25F95985009F6529 /* MockEmployeeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockEmployeeService.swift; sourceTree = "<group>"; };
-		BDE1F3E825F95A95009F6529 /* EmployeesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeesListViewController.swift; sourceTree = "<group>"; };
-		BDE1F3E925F95A95009F6529 /* EmployeesListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeesListCell.swift; sourceTree = "<group>"; };
 		BDE1F3F125F95AA9009F6529 /* EmployeesListViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeesListViewControllerTests.swift; sourceTree = "<group>"; };
 		D9CBEE08396843BF1BF96F6A /* Pods_Employee_Directory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Employee_Directory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F179A6009AE1F6E057016BBF /* Pods-Employee Directory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Employee Directory.debug.xcconfig"; path = "Target Support Files/Pods-Employee Directory/Pods-Employee Directory.debug.xcconfig"; sourceTree = "<group>"; };
@@ -143,6 +143,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BD0E357925FFE6CC006A2BF8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BD0E357A25FFE6CC006A2BF8 /* EmployeesListViewController.swift */,
+				BD0E357B25FFE6CC006A2BF8 /* EmployeesListCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		BDE1F2D525F91402009F6529 = {
 			isa = PBXGroup;
 			children = (
@@ -167,7 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				BDE1F3BF25F9594C009F6529 /* View Model */,
-				BDE1F3E725F95A95009F6529 /* Views */,
+				BD0E357925FFE6CC006A2BF8 /* Views */,
 				BDE1F3A125F92FC9009F6529 /* Helpers */,
 				BDE1F36525F925B6009F6529 /* Models + Extensions */,
 				BDE1F33F25F924E0009F6529 /* Networking */,
@@ -321,16 +330,6 @@
 				BDE1F3C725F9595C009F6529 /* EmployeesListViewModelTests.swift */,
 			);
 			path = "View Models";
-			sourceTree = "<group>";
-		};
-		BDE1F3E725F95A95009F6529 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				BDE1F3E825F95A95009F6529 /* EmployeesListViewController.swift */,
-				BDE1F3E925F95A95009F6529 /* EmployeesListCell.swift */,
-			);
-			name = Views;
-			path = "../../iOS Projects/Employee Directory/Employee Directory/Views";
 			sourceTree = "<group>";
 		};
 		BDE1F3F025F95AA9009F6529 /* Views */ = {
@@ -529,16 +528,16 @@
 				BDE1F34625F924E0009F6529 /* NetworkingErrorHandler.swift in Sources */,
 				BDE1F34525F924E0009F6529 /* NetworkSession.swift in Sources */,
 				BDE1F36E25F925B6009F6529 /* Employees.pb.swift in Sources */,
-				BDE1F3EB25F95A95009F6529 /* EmployeesListCell.swift in Sources */,
 				BDE1F39225F92FA1009F6529 /* SquareColors.swift in Sources */,
 				BDE1F36D25F925B6009F6529 /* Employee.pb.swift in Sources */,
 				BDE1F39125F92FA1009F6529 /* CachedImageView.swift in Sources */,
+				BD0E357C25FFE6CC006A2BF8 /* EmployeesListViewController.swift in Sources */,
 				BDE1F34725F924E0009F6529 /* NetworkingRouter.swift in Sources */,
 				BDE1F39025F92FA1009F6529 /* EmployeeService.swift in Sources */,
 				BDE1F2E425F91402009F6529 /* SceneDelegate.swift in Sources */,
-				BDE1F3EA25F95A95009F6529 /* EmployeesListViewController.swift in Sources */,
 				BDE1F3C125F9594C009F6529 /* EmployeesListViewModel.swift in Sources */,
 				BDE1F34425F924E0009F6529 /* Networking.swift in Sources */,
+				BD0E357D25FFE6CC006A2BF8 /* EmployeesListCell.swift in Sources */,
 				BDE1F38F25F92FA1009F6529 /* CacheService.swift in Sources */,
 				BDE1F36A25F925B6009F6529 /* Employees+Extension.swift in Sources */,
 			);
